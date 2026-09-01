@@ -96,7 +96,7 @@ private:
     template<int Index, typename ChainType, typename CoefficientsType>
     void update(ChainType& chain, const CoefficientsType& coefficients)
     {
-        updateCoefficients(chain.template get<Index>().coefficients, coefficients[Index]);
+        updateCoefficients(chain.template get<Index>().coefficients, coefficients[Index]); 
             chain.template setBypassed<Index>(false);
     }
 
@@ -136,6 +136,10 @@ private:
 
    } 
    
+	void updateLowCutFilters(const ChainSettings& chainSettings);   
+	void updateHighCutFilters(const ChainSettings& chainSettings);
+
+	void updateFilters();
     
 
     //==============================================================================
