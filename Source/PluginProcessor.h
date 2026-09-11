@@ -69,18 +69,22 @@ void updateCutFilter(ChainType& leftLowCut,
     case Slope_48:
     {
         update<3>(leftLowCut, cutCoefficients);
+        break;
     }
     case Slope_36:
     {
         update<2>(leftLowCut, cutCoefficients);
+        break;
     }
     case Slope_24:
     {
         update<1>(leftLowCut, cutCoefficients);
+        break;
     }
     case Slope_12:
     {
         update<0>(leftLowCut, cutCoefficients);
+        break;
     }
 
 
