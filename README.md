@@ -548,3 +548,7 @@ Please note that this plugin incorporates code from the JUCE framework, which is
 **Repository**: https://github.com/yourusername/SimpleEQ
 
 **Thank you for using SimpleEQ! Happy mixing! 🎚️**
+
+
+https://github.com/user-attachments/assets/114ffe35-f784-4380-a438-4bb99f0221af
+
